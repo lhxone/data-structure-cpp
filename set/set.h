@@ -18,7 +18,7 @@ public:
   virtual Set<T> DifferenceFrom(const Set<T> &R) = 0;
   virtual bool Contains(const T x) = 0;
   virtual bool SubSet(const Set<T> &R) = 0;
-  virtual bool Operator==(const Set<T> &R) = 0;
+  virtual bool Operator == (const Set<T> &R) = 0;
 };
 
 #endif // CYBER_DASH_SET_H
